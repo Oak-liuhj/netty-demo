@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: netty-server
+
+  main:
+    allow-bean-definition-overriding: true
+
+  profiles:
+    active: dev
